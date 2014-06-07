@@ -1,11 +1,12 @@
 .text-box {
-  width:500px;
-  height:450px;
+  //width:500px;
+  //height:450px;
   position:absolute;
-  left:50%;
-  top:50%;
-  margin:-225px 0 0 -250px;
+  //left:50%;
+  //top:50%;
+  //margin:-225px 0 0 -250px;
   z-index: 1;
+  padding: 50px 30%;
 }
 
 @font-face {
