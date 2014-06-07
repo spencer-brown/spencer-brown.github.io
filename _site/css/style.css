@@ -1,6 +1,44 @@
-.absolute-center {
-  top: 0; bottom: 0;
-  margin: auto;
-  position: absolute;
-  height: 20px;
+.text-box {
+  width:500px;
+  height:450px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-225px 0 0 -250px;
+  z-index: 1;
 }
+
+@font-face {
+  font-family: HelveticaHv;
+  src: url(/fonts/HelveticaNeueLTStd-Hv.otf);
+}
+
+@font-face {
+  font-family: HelveticaLt;
+  src: url(/fonts/HelveticaNeueLTStd-Lt.otf);
+}
+
+h1 {
+  font-family: HelveticaHv;
+  color: #3498db;
+}
+
+h3 {
+  color: #3498db;
+}
+
+h4 {
+  font-family: HelveticaLt;
+  color: #7f8c8d;
+}
+
+a:link {
+  color: #3498db;
+}
+
+img.custom {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+ }
