@@ -1,14 +1,3 @@
-.text-box {
-  //width:500px;
-  //height:450px;
-  position:absolute;
-  //left:50%;
-  //top:50%;
-  //margin:-225px 0 0 -250px;
-  z-index: 1;
-  padding: 50px 30%;
-}
-
 @font-face {
   font-family: HelveticaHv;
   src: url(/fonts/HelveticaNeueLTStd-Hv.otf);
@@ -19,25 +8,28 @@
   src: url(/fonts/HelveticaNeueLTStd-Lt.otf);
 }
 
-h1 {
+.text-box {
+  position:absolute;
+  z-index: 1;
+  padding: 75px 30%;
+  text-align: center;
+}
+
+.text-box h1 {
   font-family: HelveticaHv;
-  color: #3498db;
+  color: #86E2D5;
 }
 
-h3 {
-  color: #3498db;
-}
-
-h4 {
+.text-box h4 {
   font-family: HelveticaLt;
-  color: #7f8c8d;
+  color: #95a5a6;
 }
 
-a:link {
-  color: #3498db;
+.text-box a {
+  color: #86E2D5;
 }
 
-img.custom {
+.text-box img.custom {
    display: block;
    margin-left: auto;
    margin-right: auto;
